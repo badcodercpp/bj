@@ -10,7 +10,7 @@ import AboutUs from '../../component/sections/aboutUs';
 function HomePageWithoutHeader() {
   return (
       <div className='__KA__home_routes' >
-            <div style={{width: '500px', height: '500px', position: 'absolute', backgroundColor:'blue', right: 200, top: 150, padding: '20px' }} >
+            <div className='__KA__media_link_web_only' style={{width: '500px', height: '500px', position: 'absolute', backgroundColor:'blue', right: 200, top: 150, padding: '20px' }} >
               <Loader />
             </div>
             <GetStarted />

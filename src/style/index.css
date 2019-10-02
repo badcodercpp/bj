@@ -1,6 +1,5 @@
 .__KA__header_container{
-    /* height: 50px;
-    background-color: red; */
+
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
@@ -16,14 +15,6 @@
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-
-/* body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px;
-  color: #777;
-} */
 
 .container {
   max-width: 900px;
@@ -145,4 +136,68 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+@media (max-width: 992px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+
+@media(min-width:768px) {
+  .navbar-collapse {
+   width: auto;
+   /* more code here */
+  }
+}
+
+@media(max-width: 768px) {
+  .__KA__media_link_web_only{
+    width: 100% !important;
+    height: 100% !important;
+    position: inherit !important;
+  }
+  .__KA__MEDIA_MAX_WIDTH{
+    max-width: 100% !important;
+  }
+  .__KA__header_container_media{
+    margin-right: 0% !important;
+  }
+  .__KA__header_container_media__nav{
+    justify-content: flex-start !important;
+  }
+  .__KA__get_started_media__mobile{
+    height: 100% !important;
+  }
 }

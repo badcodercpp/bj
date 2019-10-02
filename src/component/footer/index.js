@@ -4,9 +4,9 @@ function Footer({logo, links = []}) {
     return (
         <div className = '__KA__footer' >
             <footer className="text-white p-5" style={{backgroundColor:"blue"}} >
-                <div className="container">
+                <div className="">
                     <div className="row d-flex">
-                        <div className="col d-none d-sm-flex align-items-center">
+                        <div className="col d-none align-items-center">
                             <ul className="list-inline mb-0">
                                 <li className="list-inline-item"><a className="text-white" href="index.html#features">Features</a></li>
                                 <li className="list-inline-item"><a className="text-white" href="index.html#why">Why Us</a></li>

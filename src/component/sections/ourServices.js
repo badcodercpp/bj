@@ -18,7 +18,7 @@ const ourServices  = [
 function OurServices({logo, links = []}) {
     return (
         <div className = '__KA__why_us' >
-            <div className="container pt-5">
+            <div className="pt-5">
                 <div className="row">
                     <div className="col-lg-10 offset-lg-1 animate-enter fadeInUp">
                         <h1 className="text-center mb-0" id="why">Our Services</h1>

@@ -23,7 +23,7 @@ const styles = {
 
 function GetStarted({logo, links = []}) {
     return (
-        <div className='__KA__get_started' style={styles.container} >
+        <div className='__KA__get_started __KA__get_started_media__mobile' style={styles.container} >
             <div className="container-fluid mb-5 bg-primary" style={styles.bootstrap_container} >
                 <div className="row animate-enter fadeInUp" style={styles.bootstrap_container} >
                     <div className="col text-center text-md-left">

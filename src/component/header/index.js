@@ -23,8 +23,8 @@ const imageClick = () => {
 function Header({logo, links = []}) {
     return (
         <div className = '__KA__header_container' >
-            <Nav className="justify-content-end navbar navbar-light navbar-expand-md bg-white" activeKey="/home">
-                <div style={{marginRight: '40%'}} >
+            <Nav className="justify-content-end navbar navbar-light navbar-expand-md bg-white __KA__header_container_media__nav" activeKey="/home">
+                <div className='__KA__header_container_media' style={{marginRight: '40%'}} >
                     <img src={BjsLogo} alt='loading' style={styles.logo} onClick={imageClick} />
                 </div>
                 <Nav.Item>
