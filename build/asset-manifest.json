@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df7df8d2.chunk.css",
+    "main.js": "/static/js/main.1cc62f70.chunk.js",
+    "main.js.map": "/static/js/main.1cc62f70.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.5fbbe860.js",
+    "runtime~main.js.map": "/static/js/runtime~main.5fbbe860.js.map",
+    "static/css/2.ac2e8ba5.chunk.css": "/static/css/2.ac2e8ba5.chunk.css",
+    "static/js/2.307ed21b.chunk.js": "/static/js/2.307ed21b.chunk.js",
+    "static/js/2.307ed21b.chunk.js.map": "/static/js/2.307ed21b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.64658aa75d43e378dd8602a537118e9f.js": "/precache-manifest.64658aa75d43e378dd8602a537118e9f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ac2e8ba5.chunk.css.map": "/static/css/2.ac2e8ba5.chunk.css.map",
+    "static/css/main.df7df8d2.chunk.css.map": "/static/css/main.df7df8d2.chunk.css.map",
+    "static/media/BJS.png": "/static/media/BJS.7d312a73.png",
+    "static/media/enhance-logo.jpg": "/static/media/enhance-logo.324065cf.jpg",
+    "static/media/finastra-logo-1200x630_0.png": "/static/media/finastra-logo-1200x630_0.f77aba2d.png",
+    "static/media/quality_candidate.jpg": "/static/media/quality_candidate.5a434db2.jpg",
+    "static/media/skip_analysis.jpg": "/static/media/skip_analysis.36dd1a23.jpg",
+    "static/media/talentpool.jpg": "/static/media/talentpool.fecc0a09.jpg",
+    "static/media/teamware.png": "/static/media/teamware.8efd31aa.png",
+    "static/media/vyomlabs.png": "/static/media/vyomlabs.506b14d0.png"
+  }
+}
