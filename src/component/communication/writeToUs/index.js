@@ -1,53 +1,47 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
+const send_message = () => {
+
+}
 
 function WriteToUs({logo, links = []}) {
+    useEffect(() => {
+        const elem = document.getElementsByClassName('__KA__home_routes')[0];
+        if (elem) {
+            document.getElementsByClassName('__KA__home_routes')[0].style.paddingTop = '0px';
+        }
+    });
     return (
-        <div style={{width:"100%", display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '100px', marginBottom: '300px'}} >
-            <div className = '__KA__write_to_us' style={{width:'600px', display: 'flex', justifyContent: 'center', alignItems: 'center'}} >
-                <Form>
-                    <Form.Row>
-                        <Form.Group as={Col} controlId="formGridEmail">
-                        <Form.Label>Email</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
-                        </Form.Group>
-                    </Form.Row>
-
-                    <Form.Group controlId="formGridAddress1">
-                        <Form.Label>Address</Form.Label>
-                        <Form.Control as='textarea' placeholder="1234 Main St" />
-                    </Form.Group>
-
-                    <Form.Row>
-                        <Form.Group as={Col} controlId="formGridCity">
-                        <Form.Label>City</Form.Label>
-                        <Form.Control />
-                        </Form.Group>
-
-                        <Form.Group as={Col} controlId="formGridState">
-                        <Form.Label>State</Form.Label>
-                        <Form.Control as="select">
-                            <option>Choose...</option>
-                            <option>...</option>
-                        </Form.Control>
-                        </Form.Group>
-
-                        <Form.Group as={Col} controlId="formGridZip">
-                        <Form.Label>Zip</Form.Label>
-                        <Form.Control />
-                        </Form.Group>
-                    </Form.Row>
-
-                    <Form.Group id="formGridCheckbox">
-                        <Form.Check type="checkbox" label="Check me out" />
-                    </Form.Group>
-
-                    <Button variant="primary" type="submit">
-                        Submit
-                    </Button>
-                </Form>
+        <div style={{width:"100%", display: 'flex', justifyContent: 'center', alignItems: 'center'}} >
+            <div className = '__KA__write_to_us'  >
+            <div class="container">  
+            <form id="contact" action="" method="post">
+                <h3>BJS Contact Form</h3>
+                <h4>feel free to write us !!</h4>
+                <fieldset>
+                <input placeholder="Your name" type="text" tabindex="1" required autofocus />
+                </fieldset>
+                <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" required />
+                </fieldset>
+                <fieldset>
+                <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required />
+                </fieldset>
+                <fieldset>
+                <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required />
+                </fieldset>
+                <fieldset>
+                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" onClick={send_message} >Submit</button>
+                </fieldset>
+            </form>
+            </div>
             </div>
         </div>
     )

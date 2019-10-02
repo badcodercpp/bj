@@ -1,4 +1,5 @@
 import React from 'react';
+//import FacebookStyle from './contentLoader';
 
 const styles = {
     px_py: {
@@ -35,7 +36,7 @@ function GetStarted({logo, links = []}) {
                         </div>
                     </div>
                     <div className="col-6 d-none d-md-flex align-items-center">
-                        <img className="img-fluid loaded" src='https://www.gstatic.com/webp/gallery/1.jpg' alt='loading' style = {styles.image} />
+                        {/* <img className="img-fluid loaded" src='https://www.gstatic.com/webp/gallery/1.jpg' alt='loading' style = {styles.image} /> */}
                     </div>
                 </div>
             </div>

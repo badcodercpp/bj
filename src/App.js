@@ -5,6 +5,7 @@ import Header from './component/header';
 import Footer from './component/footer';
 import './style/index.css'
 import AppRouter from './router'
+import 'react-sortable-tree/style.css'
 
 function App() {
   return (
