@@ -3,8 +3,7 @@ import Popover from 'react-bootstrap/Popover';
 import PopoverContent from 'react-bootstrap/PopoverContent';
 import PopoverTitle from 'react-bootstrap/PopoverTitle';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import ListGroup from 'react-bootstrap/ListGroup'
-import Button from 'react-bootstrap/Button'
+import ListGroup from 'react-bootstrap/ListGroup';
 
 const allCities = [
     {

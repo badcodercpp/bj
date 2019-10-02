@@ -6,7 +6,6 @@ import GetStartedCopy from '../../component/sections/getStartedCopy';
 import OurClients from '../../component/sections/ourClients';
 import Loader from '../../component/sections/loader';
 import AboutUs from '../../component/sections/aboutUs';
-import Walkins from '../../component/sections/walkins/walkin';
 
 function HomePageWithoutHeader() {
   return (

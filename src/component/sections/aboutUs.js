@@ -1,5 +1,4 @@
 import React from 'react';
-import OurServices from './ourServices';
 
 function AboutUs({logo, links = []}) {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import HomePageWithoutHeader from './routes/home';
 import ApplyForm from './routes/apply';
@@ -7,7 +7,6 @@ import OurClientsRoute from './routes/ourClients';
 import WalkinsRoute from './routes/walkins';
 
 function AppRouter() {
-  const origin = 'BJSHUB'
   return (
     <Router>
       <div className='__KA__route_container' >
