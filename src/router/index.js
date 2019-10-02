@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 
 import HomePageWithoutHeader from './routes/home';
 import ApplyForm from './routes/apply';
@@ -14,6 +14,7 @@ function AppRouter() {
         <Route path="/apply" component={ApplyForm} />
         <Route path="/ourClients" component={OurClientsRoute} />
         <Route path="/walkins" exact component={WalkinsRoute} />
+        <Redirect exact from="/" to="home" />
       </div>
     </Router>
   );
