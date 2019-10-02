@@ -14,7 +14,7 @@ function AppRouter() {
         <Route path="/apply" component={ApplyForm} />
         <Route path="/ourClients" component={OurClientsRoute} />
         <Route path="/walkins" exact component={WalkinsRoute} />
-        <Redirect exact from="/" to="home" />
+        <Route path="/" exact component={HomePageWithoutHeader} />
       </div>
     </Router>
   );
