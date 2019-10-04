@@ -44,7 +44,6 @@ function Header({logo, links = []}) {
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link href="https://www.bjshub.com/index.html#team">
-                        Team
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
